@@ -36,5 +36,28 @@ function Media()
     var num10 = document.getElementById("num10").valueAsNumber;
     var num11 = document.getElementById("num11").valueAsNumber;
     var resMedia = (num9+num10+num11)/3;
+
+    var x = document.getElementById("resMedia")
+    var y = document.getElementById("cond")
+    var z = document.getElementById("condN")
+    if (resMedia >7)
+    {
+        x.style.background = "green"
+        y.style.display = "block"
+        y.style.color = "green"
+        z.style.display = "none"
+    }
+    else
+    {
+        x.style.background = "red"
+        z.style.display = "block"
+        z.style.color = "red"
+        y.style.display = "none"
+    }
     document.getElementById("resMedia").textContent = resMedia;
+}
+
+function limpar()
+{
+    window.location.reload();
 }

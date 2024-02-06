@@ -75,3 +75,13 @@ button:hover{
 h1{
     border-bottom: 10px solid red;
 }
+
+.condicional
+{
+    display: none;
+}
+
+.condicionalNegada
+{
+    display: none;
+}

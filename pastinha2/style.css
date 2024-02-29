@@ -61,21 +61,56 @@ a:hover
     display: flex;
     justify-content: left;
     gap: 300px;
+}
+
+.nome-p1{
+    font-size: 3.2rem;
+    color: #2f384e;
+}
+
+.p-p1{
+    font-size: 1.6rem;
+    color: #373f53;
+    line-height: 40px;
 
 }
 
-.right-profile1
-{
-    
+.left-profile01{
+    width: 300px;
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-01{
+    top: 100px;
+    position: absolute;
+    left: -50px;
+    width: auto;
+    height: 250px;
+    transition: all 400ms linear;
+}
+.img-01:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 400ms linear;
+}
+
+.right-profile01
+{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 500px;
     height: 250px;
-    background-color: rgb(43, 138, 192);
+    gap: 10px;
 }
 
 img
 {
     transition: all 350ms linear;
-    margin-top: 30px;
     margin-left: 35px;
 }
 
@@ -85,22 +120,69 @@ img:hover
     cursor: pointer;
     transform: all 350ms linear;
 }
-
 .profile2
 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
     width: 100%;
     height: 500px;
-    background-color: rgb(176, 43, 194);
+    background-color: rgb(56, 94, 216);
+    gap: 300px;
+}
+
+.nome-p2{
+    font-size: 3.2rem;
+    color: #2f384e;
+}
+
+.p-p2{
+    font-size: 1.6rem;
+    color: #373f53;
+    line-height: 40px;
+
+}
+
+.left-profile02{
+    width: 500px;
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-02{
+    position: absolute;
+    left: 200px;
+    width: auto;
+    height: 250px;
+    transition: all 400ms linear;
+}
+.img-02:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 400ms linear;
+}
+
+.right-profile02
+{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    width: 500px;
+    height: 250px;
+    gap: 10px;
 }
 
 .rel
 {
-    width: 220px;
-    height: 220px;
-    border-radius: 100%;
-    margin-left: 200px;
-    transition: all 350ms linear;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    position: relative;
+    width: auto;
+    height: 500px;
+    transition: all 400ms linear;
 }
 
 .tec

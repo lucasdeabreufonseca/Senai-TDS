@@ -61,36 +61,6 @@ p{
     letter-spacing: 10px;
 }
 
-.wrap1{
-    animation: totheleft 2s linear;
-}
-
-.wrap2{
-    animation: totheright 2s linear;
-}
-
-@keyframes totheright{
-    from{
-        transform: translateX(200px);
-        opacity: 0.1;
-    }
-    to{
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
-
-@keyframes totheleft{
-    from{
-        transform: translateX(-200px);
-        opacity: 0.1;
-    }
-    to{
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
-
 @keyframes show {
     from{
         transform: translateY(200px);
@@ -99,6 +69,37 @@ p{
     to{
         transform: translateY(0px);
         opacity: 1;
+    }
+}
+
+.right-animation{
+    animation: left 2s linear;
+}
+
+.left-animation{
+    animation: right 2s linear;
+}
+
+@keyframes right {
+    from{
+        transform: translateX(-500px);
+        opacity: 0.1;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+
+    }
+}
+@keyframes left {
+    from{
+        transform: translateX(500px);
+        opacity: 0.1;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+
     }
 }
 
@@ -112,8 +113,10 @@ p{
     }
     p{
         font-size: 8rem;
-        filter: blur(2px);
+        filter: blur(1px);
         transition: all 200ms linear;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+
     }
     p:hover{
         filter: blur(0px);
@@ -122,3 +125,4 @@ p{
 
     }
 }
+

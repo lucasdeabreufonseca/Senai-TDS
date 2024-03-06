@@ -146,7 +146,9 @@ img:hover
 }
 
 .left-profile02{
-    width: 500px;
+    padding-top: 250px;
+    padding-right: 600px; 
+    width: 20px;
     display:flex ;
     flex-direction: row;
     justify-content: center;
@@ -168,6 +170,8 @@ img:hover
 
 .right-profile02
 {
+    padding-left: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: right;
@@ -185,11 +189,24 @@ img:hover
     transition: all 400ms linear;
 }
 
-.tec
+/* .tec
 {
     width: 100%;
     height: 500px;
     background-color: rgb(174, 60, 189);
+} */
+
+.tec{
+    width: 100%;
+    height: auto;
+    background-color: rgb(24, 209, 233);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .cont
@@ -200,4 +217,20 @@ img:hover
     width: 100%;
     height: 500px;
     background-color: rgb(204, 194, 53);
+}
+
+.flex-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
 }

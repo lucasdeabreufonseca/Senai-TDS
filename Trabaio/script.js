@@ -32,6 +32,26 @@ function adicionarItem(){
 
 }
 
+function removerItem(){
+    var nomeParaRemover = document.getElementById("nomeRemover").value;
+    if(!nomeParaRemover){
+        alert("Digite um nome existente")
+        return;
+    }
+    var tabela = document.getElementById("tabela").getElementsByTagName("tbody")[0];
+    var linhas = tabela.getElementsByTagName("tr");
+    
+    for(var i = 0; i < linhas.length ; i++){
+        var celulaNome = linhas[i].getElementsByTagName("td")[0];
+    
+    if (celulaNome && celulaNome.innerHTML === nomeParaRemover){
+        tabela.deleteRow(i);
+        return
+    }
+    alert("Digite um nome existente")
+    }
+}
+
 function exportarParaExcel(){
     var tabela = document.getElementById("tabela");
     var nomeArquivo = "tabela_produtos.xlsx";

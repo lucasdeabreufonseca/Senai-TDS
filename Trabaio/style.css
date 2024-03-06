@@ -1,0 +1,20 @@
+*{
+    background-color: aquamarine;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: aquamarine;
+    height: 450px;
+}
+
+.tabelinha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}

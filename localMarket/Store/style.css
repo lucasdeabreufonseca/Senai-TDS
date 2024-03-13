@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    padding: 2em;
+    background-image: url("https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/7cc0999a-d7ae-473b-8463-b654d01000c6/SIGS_MarketingScreenshot_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.idPerfil{
+    display: flex;
+    gap: 5px;
+    color: #ffff;
+}
+
+.title{
+    color: blueviolet;
+}

@@ -8,13 +8,13 @@
     {
         "id": 2,
         "descricao": "Produto 2",
-        "imagem": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e0/Raw_Porkchop_JE3_BE3.png/revision/latest/thumbnail/width/360/height/360?cb=20190504060623",
+        "imagem": "../Images/Porkshop.webp",
         "preco": 20.0
     },
     {
         "id": 3,
         "descricao": "Produto 3",
-        "imagem": "https://static.wikia.nocookie.net/minecraft-mob/images/e/ea/Kiwi.png/revision/latest?cb=20230222185616",
+        "imagem": "../Images/rawchicken.webp",
         "preco": 30.0
     }
 ]
